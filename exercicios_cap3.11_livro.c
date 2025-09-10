@@ -6,6 +6,7 @@ cessor. */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <locale.h>
 
 int main() {
     int num1;
@@ -98,9 +99,9 @@ i.  O primeiro ganhador receberá 46% do total.
     primeiro = total * 46 / 100;
     segundo = total * 32 / 100;
     terceiro = total - (primeiro + segundo);
-    printf("O primeiro ganhador recebera: %.2f\n", primeiro);
-    printf("O segundo ganhador recebera: %.2f\n", segundo);
-    printf("O terceiro ganhador recebera: %.2f\n", terceiro);
+    printf("O primeiro ganhador recebera: %'.2f\n", primeiro);
+    printf("O segundo ganhador recebera: %'.2f\n", segundo);
+    printf("O terceiro ganhador recebera: %'.2f\n", terceiro);
 
 /* 11)  Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspon
 dente. A área do círculo é A = p * raio2, sendo p = 3.141592.*/
@@ -116,9 +117,11 @@ O volume de um cilindro circular é calculado por meio da seguinte fórmula:
  V = p * raio2 * altura,
  em que p = 3.141592*/
 
-    float altura;
+    float altura, raio;
     printf("\n12)Insira a altura do cilindro:");
     scanf("%f", &altura);
+    printf("Insira o valor do raio do cilindro:");
+    scanf("%f", &raio);
     printf("O volume do cilindro eh: %.2f\n", 3.141592 * raio * raio * altura);
 
 /* 13)  Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação: 
