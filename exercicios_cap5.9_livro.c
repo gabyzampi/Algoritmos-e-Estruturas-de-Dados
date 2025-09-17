@@ -7,6 +7,8 @@
 /*1)  Faça um programa que leia um número inteiro positivo N e imprima todos os 
 números naturais de 0 até N em ordem crescente.*/
 
+
+
 /*PROGRAMA
 
 int main(){
@@ -33,7 +35,10 @@ int main(){
 
 */
 
+
+
 /* 5)  Faça um programa que calcule e mostre a soma dos 50 primeiros números pares.*/
+
 
 
 /*PROGRAMA
@@ -54,11 +59,13 @@ int main(){
 */
 
 
+
 /* 14)  Escreva um programa que leia um número inteiro, maior ou igual a zero, do usuário. 
 Imprima o enésimo termo da sequência de Fibonacci. Essa sequência começa 
 no termo de ordem zero, e, a partir do segundo termo, seu valor é dado pela soma 
 dos dois termos anteriores. Alguns termos dessa sequência são: 0, 1, 1, 2, 3, 5, 8, 
 13, 21, 34*/
+
 
 
 
@@ -99,6 +106,7 @@ if (num == 0) {
 
 
 
+
 /* 17)  Escreva um programa que leia um número inteiro positivo N e em seguida imprima N linhas do chamado triângulo de Floyd:
  1
  2 3
@@ -107,7 +115,9 @@ if (num == 0) {
  11 12 13 14 15
  16 17 18 19 20 21*/
 
- 
+
+
+/*PROGRAMA
 
 int main() {
     int totalLinhas;          // quantidade de linhas que o usuário quer
@@ -136,3 +146,6 @@ int main() {
 
     return 0;
 }
+
+
+*/
