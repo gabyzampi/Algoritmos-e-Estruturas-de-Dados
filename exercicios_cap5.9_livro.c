@@ -8,7 +8,6 @@
 números naturais de 0 até N em ordem crescente.*/
 
 
-
 /*PROGRAMA
 
 int main(){
@@ -68,8 +67,8 @@ dos dois termos anteriores. Alguns termos dessa sequência são: 0, 1, 1, 2, 3, 
 
 
 
-
 /*PROGRAMA
+
 
 int main(){
     int num = 0, i=0;
@@ -115,9 +114,10 @@ if (num == 0) {
  11 12 13 14 15
  16 17 18 19 20 21*/
 
+ 
 
+ /*PROGRAMA
 
-/*PROGRAMA
 
 int main() {
     int totalLinhas;          // quantidade de linhas que o usuário quer
